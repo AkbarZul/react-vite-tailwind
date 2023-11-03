@@ -1,7 +1,4 @@
-
-
 function App() {
-
   return (
     <>
       <div className="max-w-sm mx-auto overflow-hidden rounded shadow-lg">
@@ -27,8 +24,8 @@ function App() {
         </div>
       </div>
       <div className="w-full h-screen text-4xl text-blue-600 flex items-center justify-center">
-      Hello world, Try vite and tailwind
-     </div>
+        Hello world, Try vite and tailwind
+      </div>
     </>
   );
 }
