@@ -1,6 +1,15 @@
 import React from "react";
 import { LogoBlanja } from "../../assets";
-import { TextField, Typography, styled, Button } from "@mui/material";
+import { TextField, Typography, styled } from "@mui/material";
+import Buttons from "../../components/Button";
+
+const ButtonLogin = styled(Buttons)({
+  backgroundColor: "#DB3022",
+  width: "401px",
+  height: "48px",
+  color: "#FFFFFF",
+  borderRadius: "25px"
+})
 
 const login = () => {
   return (
@@ -22,7 +31,7 @@ const login = () => {
         <div className="flex flex-col items-center mt-4">
           <TextField />
           <TextField />
-          <Button>Login</Button>
+          <ButtonLogin variant="contained">Login</ButtonLogin>
         </div>
       </div>
     </>
